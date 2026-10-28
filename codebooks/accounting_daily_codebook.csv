@@ -1,0 +1,44 @@
+name,type,vallab,varlab
+release_id,int,,Restaurant (random release id)
+week_id,long,,
+day_id,long,,
+intervention_week,str26,,For which week of data collection do you want to enter the data of ____ with the
+treatment,str24,,
+sales_date,int,, Which day are you entering data for? Select date on sales sheet
+summed_sales,double,,(sum) number_sold
+daily_revenue_reported,long,,Daily revenue as reported on accounting sheet
+summed_revenues,long,,(sum) calculated_item_revenue
+revenue_discrepancy,float,,
+daily_expenses_reported,long,,Daily expenses as reported on accounting sheet
+summed_expenses,long,,(sum) expense_amount
+expenses_discrepancy,float,,
+daily_profit_reported,double,,Daily profits as reported on accounting sheet
+daily_profit,float,,
+profit_discrepancy,float,,
+day_added_from_photo,byte,,
+day_photo_verified,byte,,
+total_days_to_enter,byte,,How many days of sales and expenses sheets do you have for this maquis for this
+total_bushmeat_revenue,long,,(sum) bushmeat_revenue
+total_bushmeat_sold,int,,(sum) bushmeat_qty_sold
+total_snailfrog_revenue,long,,(sum) snailfrog_revenue
+sold_bushmeat_today,byte,,(max) is_bushmeat
+sold_snailfrog_today,byte,,(max) is_snail_frog
+bushmeat_revenue_share,float,,
+bushmeat_sales_share,float,,
+week_number,byte,week_number,For which week of data collection do you want to enter the data of ____ with the
+intervention_phase,str14,,
+treat,byte,treat_pub,Study arm (1 = poster + compensation)
+days_open,byte,,Days open this week
+summed_sales_w,double,,(sum) number_sold
+summed_revenues_w,long,,(sum) calculated_item_revenue
+summed_expenses_w,long,,(sum) expense_amount
+daily_profit_w,float,,daily_profit
+total_bushmeat_revenue_w,long,,(sum) bushmeat_revenue
+total_bushmeat_sold_w,byte,,(sum) bushmeat_qty_sold
+bushmeat_revenue_share_w,float,,bushmeat_revenue_share
+bushmeat_sales_share_w,float,,bushmeat_sales_share
+sold_bushmeat_today_w,byte,,
+phase,str17,,Intervention phase based on sales_date
+phase_num,byte,phase_lbl,Intervention phase (numeric)
+est_sample,byte,,Maquis has baseline accounting days (estimation sample)
+enumerator,byte,,Enumerator (numeric code)

@@ -1,0 +1,16 @@
+{
+  "title": "Data: Temporary voluntary compensation contracts reduce wild meat sales in a zoonotic disease hotspot",
+  "upload_type": "dataset",
+  "description": "De-identified data for a field experiment with informal restaurant owners in Abidjan, Côte d'Ivoire (2025), its twelve-month follow-up (2026), and a companion online donation experiment (Prolific, 2025). Version 1 contains the cleaned datasets; the full replication package will be added after publication.",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    {"name": "Steimanis, Ivo", "affiliation": "Philipps University Marburg"},
+    {"name": "Struwe, Natalie", "affiliation": "University of Innsbruck"},
+    {"name": "Benda, Julian", "affiliation": "University of Innsbruck"},
+    {"name": "Doho, Cyrille", "affiliation": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire"},
+    {"name": "Blanco, Esther", "affiliation": "University of Innsbruck"},
+    {"name": "Vollan, Björn", "affiliation": "Philipps University Marburg"}
+  ],
+  "keywords": ["wild meat", "bushmeat", "field experiment", "compensation contracts", "Côte d'Ivoire", "zoonoses"]
+}

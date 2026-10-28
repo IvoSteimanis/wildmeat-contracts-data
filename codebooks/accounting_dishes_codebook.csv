@@ -1,0 +1,21 @@
+name,type,vallab,varlab
+release_id,int,,Restaurant (random release id)
+week_id,long,,
+day_id,long,,
+sale_id,long,,
+intervention_week,str26,,For which week of data collection do you want to enter the data of ____ with the
+dish_category,byte,dish_cat,What type of meat/main ingredient in  ?
+number_sold,double,,Number of  sold
+price_per_dish,long,,Price per  in CFA
+calculated_item_revenue,long,,Calculated Revenue
+photo_cat,byte,,
+is_bushmeat,byte,bushmeat_lbl,
+bm_recoded,byte,,
+is_snail_frog,byte,,Snail or frog dish (contract bushmeat; robustness: BUSHMEAT_DEF contract_nosnail
+bushmeat_revenue,float,,
+bushmeat_qty_sold,byte,,
+snailfrog_revenue,float,,
+treatment,str24,,
+total_days_to_enter,byte,,How many days of sales and expenses sheets do you have for this maquis for this
+species_group,str32,,Wild meat species group (from the dish name; empty if not wild meat)
+enumerator,byte,,Enumerator (numeric code)

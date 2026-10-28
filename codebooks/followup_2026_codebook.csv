@@ -1,0 +1,158 @@
+name,type,vallab,varlab
+release_id,int,,Restaurant (random release id)
+wave,str13,,Survey wave
+enumerator,byte,,
+participation_recall,byte,participation_lbl,
+maquis_found,byte,,
+consent,byte,,
+fu_found,byte,,Maquis found at follow-up
+fu_consent,byte,,Consent obtained
+fu_complete,byte,,Survey completed
+fu_mpl_completed,byte,,Completed MPL module
+bushmeat_current_check,byte,,
+daily_profit,byte,,
+share_bushmeat1,byte,,
+share_bushmeat2,byte,,
+importance_bushmeat,byte,,
+mpl_order,byte,,
+n_accept,byte,,Number of price levels accepted
+mpl_quality,byte,mpl_qual_lbl,MPL response quality
+mpl_switches,byte,,
+wta_followup,float,,"WTA switching point, CFA/week (stable from top)"
+wta_first_accept,float,,"WTA first acceptance, CFA/week (any accept)"
+wta_diverges,byte,,Stable and first-accept WTA differ (multiple-switcher)
+always_reject,byte,,"Never accepts (WTA > 65,000 CFA)"
+always_accept,byte,,"Accepts at all prices (WTA <= 10,000 CFA)"
+openness_index,float,,Openness to change index (Cronbach alpha)
+intention_index,float,,Intention to reduce bushmeat index (Cronbach alpha)
+consent_info,byte,,
+respondent_same,byte,,
+start_info,byte,,
+meats_offered1,byte,,meats_offered/1
+meats_offered2,byte,,meats_offered/2
+meats_offered3,byte,,meats_offered/3
+meats_offered4,byte,,meats_offered/4
+meats_offered5,byte,,meats_offered/5
+meats_offered6,byte,,meats_offered/6
+meats_offered7,byte,,meats_offered/7
+meats_offered8,byte,,meats_offered/8
+meats_offered9,byte,,meats_offered/9
+meats_offered10,byte,,meats_offered/10
+meats_offered11,byte,,meats_offered/11
+meats_offered12,byte,,meats_offered/12
+meats_offered13,byte,,meats_offered/13
+meats_offered14,byte,,meats_offered/14
+meats_offered15,byte,,meats_offered/15
+meats_offered66,byte,,meats_offered/-66
+meats_offered88,byte,,meats_offered/-88
+meats_offered99,byte,,meats_offered/-99
+stopped_intentional,byte,,
+when_stopped_treat,byte,,
+when_stopped_ctrl,byte,,
+reasons_stopped1,byte,,reasons_stopped/1
+reasons_stopped2,byte,,reasons_stopped/2
+reasons_stopped3,byte,,reasons_stopped/3
+reasons_stopped4,byte,,reasons_stopped/4
+reasons_stopped5,byte,,reasons_stopped/5
+reasons_stopped6,byte,,reasons_stopped/6
+reasons_stopped7,byte,,reasons_stopped/7
+reasons_stopped8,byte,,reasons_stopped/8
+reasons_stopped9,byte,,reasons_stopped/9
+reasons_stopped10,byte,,reasons_stopped/10
+reasons_stopped11,byte,,reasons_stopped/11
+reasons_stopped66,byte,,reasons_stopped/-66
+reasons_stopped88,byte,,reasons_stopped/-88
+considered_before,byte,,
+customer_reaction_stop1,byte,,customer_reaction_stop/1
+customer_reaction_stop2,byte,,customer_reaction_stop/2
+customer_reaction_stop3,byte,,customer_reaction_stop/3
+customer_reaction_stop4,byte,,customer_reaction_stop/4
+customer_reaction_stop5,byte,,customer_reaction_stop/5
+customer_reaction_stop66,byte,,customer_reaction_stop/-66
+customer_reaction_stop88,byte,,customer_reaction_stop/-88
+certainty_stop,byte,,
+bushmeat_trend,byte,,
+empirical_expectations,byte,,
+openness1,byte,,
+openness2,byte,,
+openness3,byte,,
+openness4,byte,,
+openness5,byte,,
+openness6,byte,,
+openness7,byte,,
+intention1,byte,,
+intention2,byte,,
+intention3,byte,,
+info_treatment_intro,byte,,
+wta_certainty,byte,,
+mpl_comprehension,byte,,
+customer_pressure_bushmeat,byte,,
+peer_influence,byte,,
+peer_bushmeat_changes,byte,,
+record_keeping,byte,,
+record_keeping_method,byte,,
+record_keeping_other,byte,,
+accounting_usefulness,byte,,
+training_books_use,byte,,
+training_books_freq,byte,,
+why_stopped_accounting1,byte,,why_stopped_accounting/1
+why_stopped_accounting2,byte,,why_stopped_accounting/2
+why_stopped_accounting3,byte,,why_stopped_accounting/3
+why_stopped_accounting4,byte,,why_stopped_accounting/4
+why_stopped_accounting5,byte,,why_stopped_accounting/5
+why_stopped_accounting66,byte,,why_stopped_accounting/-66
+contact_participants,byte,,
+info_exchange1,byte,,info_exchange/1
+info_exchange2,byte,,info_exchange/2
+info_exchange3,byte,,info_exchange/3
+info_exchange4,byte,,info_exchange/4
+info_exchange5,byte,,info_exchange/5
+info_exchange6,byte,,info_exchange/6
+info_exchange66,byte,,info_exchange/-66
+association_member,byte,,
+association_usefulness,byte,,
+debriefing_info,byte,,
+intervention_audit1,byte,,intervention_audit/1
+intervention_audit2,byte,,intervention_audit/2
+intervention_audit3,byte,,intervention_audit/3
+intervention_audit4,byte,,intervention_audit/4
+intervention_audit5,byte,,intervention_audit/5
+intervention_audit6,byte,,intervention_audit/6
+intervention_audit7,byte,,intervention_audit/7
+intervention_audit8,byte,,intervention_audit/8
+intervention_audit9,byte,,intervention_audit/9
+intervention_audit10,byte,,intervention_audit/10
+intervention_audit11,byte,,intervention_audit/11
+intervention_audit12,byte,,intervention_audit/12
+intervention_audit13,byte,,intervention_audit/13
+complete,byte,,
+reason_complete,byte,,
+reason_no_consent1,byte,,reason_no_consent/1
+reason_no_consent2,byte,,reason_no_consent/2
+reason_no_consent3,byte,,reason_no_consent/3
+reason_no_consent4,byte,,reason_no_consent/4
+reason_no_consent5,byte,,reason_no_consent/5
+reason_no_consent66,byte,,reason_no_consent/-66
+reason_not_found1,byte,,reason_not_found/1
+reason_not_found2,byte,,reason_not_found/2
+reason_not_found3,byte,,reason_not_found/3
+reason_not_found4,byte,,reason_not_found/4
+reason_not_found5,byte,,reason_not_found/5
+reason_not_found66,byte,,reason_not_found/-66
+when_stopped,byte,,
+bushmeat_consistency,byte,,
+bushmeat_consistency_other,byte,,
+supply_availability,byte,,
+wholesale_price,byte,,
+accept_10000,byte,,"Accept contract at 10000 CFA/week (1=Yes, 0=No)"
+accept_15000,byte,,"Accept contract at 15000 CFA/week (1=Yes, 0=No)"
+accept_20000,byte,,"Accept contract at 20000 CFA/week (1=Yes, 0=No)"
+accept_25000,byte,,"Accept contract at 25000 CFA/week (1=Yes, 0=No)"
+accept_30000,byte,,"Accept contract at 30000 CFA/week (1=Yes, 0=No)"
+accept_35000,byte,,"Accept contract at 35000 CFA/week (1=Yes, 0=No)"
+accept_40000,byte,,"Accept contract at 40000 CFA/week (1=Yes, 0=No)"
+accept_45000,byte,,"Accept contract at 45000 CFA/week (1=Yes, 0=No)"
+accept_50000,byte,,"Accept contract at 50000 CFA/week (1=Yes, 0=No)"
+accept_55000,byte,,"Accept contract at 55000 CFA/week (1=Yes, 0=No)"
+accept_60000,byte,,"Accept contract at 60000 CFA/week (1=Yes, 0=No)"
+accept_65000,byte,,"Accept contract at 65000 CFA/week (1=Yes, 0=No)"

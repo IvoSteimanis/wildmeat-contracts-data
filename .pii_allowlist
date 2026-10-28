@@ -1,0 +1,10 @@
+accounting_daily_codebook.csv    # codebook: column "name" holds variable names (IS 2026-10-28)
+accounting_dishes_codebook.csv   # codebook: column "name" holds variable names
+donation_experiment_codebook.csv # codebook: column "name" holds variable names
+field_survey_2025_codebook.csv   # codebook: one row per variable
+followup_2026_codebook.csv       # codebook: one row per variable
+accounting_daily.csv             # de-identified public microdata by design (99_export_public_data.do)
+accounting_dishes.csv            # de-identified public microdata by design
+donation_experiment.csv          # de-identified public microdata by design
+field_survey_2025.csv            # de-identified microdata; respondent_same is a yes/no item
+followup_2026.csv                # de-identified microdata; respondent_same, contact_participants are yes/no items

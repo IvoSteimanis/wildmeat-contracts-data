@@ -1,0 +1,212 @@
+name,type,vallab,varlab
+release_id,int,,Restaurant (random release id)
+enumerator,byte,,Please select your tablet number:
+treatment,str24,,
+maquis_previous,byte,yesno_only,Has this maquis already been visited in a previous data collection and has a uni
+female,byte,gender,Female Owner (%)
+contract_length,byte,,list(1 = 2-weeks; 2 = 4-weeks)
+owner,byte,owner,Are you the owner or manager of this business?
+business_age,byte,year,How many years ago did you start the business?
+start_managing,byte,year,How many years ago did you start managing this business?
+workers_paid,byte,,Number of paid workers:
+workers_unpaid,byte,,Number of unpaid workers:
+opening_days,byte,,Days open per week
+serving1,byte,m_serving1,Breakfast
+serving2,byte,m_serving2,Lunch
+serving3,byte,m_serving3,Dinner
+serving4,byte,m_serving4,Drinks (alcoholic)
+tables,byte,,How many tables do you have?
+chairs,byte,,How many chairs do you have?
+customers_weekday,int,,on weekdays? (per day)
+customers_weekend,int,,on the weekend? (per day)
+total_customers,int,,
+regulars,int,,How many of your  customers are 'regulars' ? These are people you recognize as t
+meats_offered1,byte,,
+meats_offered2,byte,,
+meats_offered3,byte,,
+meats_offered4,byte,,
+meats_offered5,byte,,
+meats_offered6,byte,,
+meats_offered7,byte,,
+meats_offered8,byte,,
+meats_offered9,byte,,
+meats_offered10,byte,,
+meats_offered11,byte,,
+meats_offered12,byte,,
+meats_offered13,byte,,
+meats_offered14,byte,,
+meats_offered15,byte,,
+meats_offered66,byte,,
+meats_offered88,byte,,
+meats_offered99,byte,,
+daily_profit,byte,daily_profitey,"On a typical day, how much profit do you make? Considering all the input  cost o"
+share_bushmeat1,byte,,"Out of 10  dishes sold, how many typically contain bushmeat (agouti, biche, pang"
+share_bushmeat2,byte,share_bush,"How much of your daily profit comes from bushmeat (such as agouti, biche, pangol"
+importance_bushmeat,byte,,Importance of bushmeat (0 to 10)
+empirical_expectations,byte,,Belief: % of Others Selling Bushmeat
+opinion_biodiversity,byte,,"Hunting, trading and eating bushmeat threatens wild animal populations in our fo"
+opinion_biodiversity2,byte,,Some wild animals might completely disappear from Côte d'Ivoire's forests.
+opinion_zoonoses,byte,,Diseases can spread from wild animals to humans through contact causing public h
+opinion_zoonoses2,byte,,"Bushmeat hunting, trade and consumption increase the risk of such disease outbre"
+complete,byte,yesno_only,[DO NOT READ] Did the respondent complete the survey?
+consent,byte,,
+bushmeat_maquis,byte,vendor_lbl,
+consequences_stop_bushmeat1,byte,m_consequences_stop_bushmeat1,Customer loss
+consequences_stop_bushmeat2,byte,m_consequences_stop_bushmeat2,Difficult to substitute
+consequences_stop_bushmeat3,byte,m_consequences_stop_bushmeat3,Lower profits
+consequences_stop_bushmeat4,byte,m_consequences_stop_bushmeat4,Issues with suppliers
+consequences_stop_bushmeat5,byte,m_consequences_stop_bushmeat5,Reputation concern
+consequences_stop_bushmeat6,byte,m_consequences_stop_bushmeat6,Customer disapproval
+consequences_stop_bushmeat66,byte,m_consequences_stop_bushmeat66,Other
+consequences_stop_bushmeat88,byte,m_consequences_stop_bushmeat88,Don't know
+consequences_stop_bushmeat99,byte,m_consequences_stop_bushmeat99,Will not say
+consequences_customers,byte,,Do you think you could maintain your current customer base with non-bushmeat dis
+wta_poster,byte,wta_post,Suppose you were offered a one-time payment to:  - Display an A1-size informatio
+wta_poster_certainty,byte,,How certain are you about this amount?
+poster_concern,byte,risk_poster,What is your main concern about displaying the poster?
+willingness_participate,byte,yesno_only,Would you be interested to be  contacted by us with offers for financial trainin
+decision_maker,byte,yesno_only,"Suppose you were offered such a contract,  can you take the final decision of si"
+reason_no_consent1,byte,m_reason_no_consent1,Lack of time
+reason_no_consent2,byte,m_reason_no_consent2,Distrust
+reason_no_consent3,byte,m_reason_no_consent3,Fear of negative impact
+reason_no_consent4,byte,m_reason_no_consent4,Privacy / anonymity concerns
+reason_no_consent66,byte,m_reason_no_consent66,Other
+bushmeat_frequency_14,float,,
+wta_stop_bushmeat,byte,wta_amount,
+wta_certainty,byte,,
+bushmeat_interest,byte,,
+bushmeat_willing,byte,willie,
+bushmeat_profit_share1,byte,,None (0%)
+bushmeat_profit_share2,byte,,Very little (1-20%)
+bushmeat_profit_share3,byte,,Some (21-40%)
+bushmeat_profit_share4,byte,,About half (41-50%)
+bushmeat_profit_share5,byte,,Most (61-80%)
+bushmeat_profit_share6,byte,,Almost all (81-100%)
+bio_zoonoses_index,float,,mean(unstandardized items)
+intervention,byte,intie,
+participation,byte,pa_lbl,
+avg_daily_customers,float,,Daily customers
+avg_daily_busmeat_sales,float,,Daily bushmeat sales (dishes)
+wave,str8,,
+respondent_same,byte,samie,Are you the same person who participated in our original survey?
+bushmeat_current_check,byte,,"Based on your answers, you currently (within the past 14 days) sell bushmeat . I"
+customer_pressure_bushmeat,byte,,I feel pressure from customers to serve bushmeat.
+peer_influence,byte,,Other maquis owners in this area influence my decisions about what to serve.
+peer_bushmeat_changes,byte,,I have noticed other maquis in this area changing how much bushmeat they sell in
+openness1,byte,,Not dealing with bushmeat gives me more time to improve my menu or customer serv
+openness2,byte,,Not offering bushmeat reduces the number of customers and profits I make.
+openness3,byte,,I can earn the same or more by offering other dishes instead of bushmeat.  
+openness4,byte,,"I am confident that I can offer an attractive menu without bushmeat, even if som"
+openness5,byte,,I have the skills and knowledge needed to change how I run my restaurant if I de
+openness6,byte,,I like experimenting with new dishes or changing my menu to attract different cu
+openness7,byte,,"Avoiding bushmeat is good for health and the environment, and I want my business"
+intention1,byte,,I plan to reduce or stop selling bushmeat in the next 6 months.
+intention2,byte,,I want my restaurant to become known for dishes other than bushmeat.
+intention3,byte,,I plan to talk to my customers about why I offer alternatives to bushmeat.
+participation_recall,byte,particip,What did your participation in the project involve?
+project_info,byte,approach,How did you get to know about the project?
+reason_non_participation1,byte,m_reason_non_participation1,Lack of time
+reason_non_participation2,byte,m_reason_non_participation2,Distrust
+reason_non_participation3,byte,m_reason_non_participation3,Fear of negative impact
+reason_non_participation4,byte,m_reason_non_participation4,Privacy / anonymity concerns
+reason_non_participation5,byte,m_reason_non_participation5,Not relevant to me
+reason_non_participation66,byte,m_reason_non_participation66,Other
+training_recall,byte,training,Do you remember participating in financial accounting training with our team?
+training_content_recall1,byte,m_training_content_recall1,How to calculate profit
+training_content_recall2,byte,m_training_content_recall2,Record keeping methods
+training_content_recall3,byte,m_training_content_recall3,Tracking daily expenses
+training_content_recall4,byte,m_training_content_recall4,Planning purchases
+training_content_recall5,byte,m_training_content_recall5,Business decision making
+training_content_recall66,byte,m_training_content_recall66,"Other, specify:"
+training_content_recall88,byte,m_training_content_recall88,Don't know
+training_usefulness,byte,useful,How useful was the financial training for your business?
+poster_customer_reaction,byte,poster_react,How did customers react to the poster?
+app_usefulness,byte,useful,How useful was the customer application for your business?
+stop_customer_reaction1,byte,m_stop_customer_reaction1,They accepted it without complaints
+stop_customer_reaction2,byte,m_stop_customer_reaction2,They asked for bushmeat anyway
+stop_customer_reaction3,byte,m_stop_customer_reaction3,Some stopped coming
+stop_customer_reaction4,byte,m_stop_customer_reaction4,They were curious and tried the new dishes
+stop_customer_reaction5,byte,m_stop_customer_reaction5,They appreciated the change
+stop_customer_reaction66,byte,m_stop_customer_reaction66,"Other, specify:"
+stop_customer_reaction88,byte,m_stop_customer_reaction88,Don't know
+change_reaction,byte,yesno_only,"Over the 4-week period, did the way customers reacted to your menu change?"
+sufficient_compensation,byte,,To what extent did the compensation cover the profits you lost by not selling bu
+fairness_compensation,byte,,Would you have needed more or less compensation to feel the contract was fair?
+behavior_changes1,byte,m_behavior_changes1,I keep better records of my sales
+behavior_changes2,byte,m_behavior_changes2,I calculate profits more carefully
+behavior_changes3,byte,m_behavior_changes3,I plan my purchases more carefully
+behavior_changes4,byte,m_behavior_changes4,I interact more with my customers
+behavior_changes5,byte,m_behavior_changes5,I have reduced my bushmeat sales
+behavior_changes6,byte,m_behavior_changes6,I have improved food safety in my kitchen
+behavior_changes7,byte,m_behavior_changes7,Nothing changed
+behavior_changes66,byte,m_behavior_changes66,"Other, specify:"
+behavior_changes88,byte,m_behavior_changes88,Don't know
+spillover_sharing1,byte,m_spillover_sharing1,I shared why it is important to reduce bushmeat consumption
+spillover_sharing2,byte,m_spillover_sharing2,I talked about using alternatives to bushmeat in restaurant menus
+spillover_sharing3,byte,m_spillover_sharing3,I shared the posters or messages shown during the project
+spillover_sharing4,byte,m_spillover_sharing4,I talked about the payments or contracts offered
+spillover_sharing5,byte,m_spillover_sharing5,I shared information about how to keep better sales or profit records
+spillover_sharing6,byte,m_spillover_sharing6,I did not share any information
+spillover_sharing66,byte,m_spillover_sharing66,"Other, specify:"
+spillover_sharing88,byte,m_spillover_sharing88,Don't know
+knowledge_handling,byte,,I know how to safely handle different types of meat.
+profit_calculation,int,,"Imagine you buy ingredients for 5,000 CFA, pay 2,000 CFA for other costs (rent,"
+fixed_costs_understanding,byte,fixed,Which of these costs stays the same whether you serve 10 customers or 50 custome
+record_keeping,byte,records,Do you currently keep written records of your daily sales?
+record_keeping_method,byte,records_how,How do you keep these records?
+hand_washing,byte,hands,How often do you wash your hands with soap while preparing food?
+cutting_boards,byte,boards,Do you use different cutting boards or knives for different types of meat?
+meat_storage,byte,storage,"How do you usually store different types of meat (e.g., chicken, fish, bushmeat)"
+cleaning_products1,byte,m_cleaning_products1,Water
+cleaning_products2,byte,m_cleaning_products2,Soap
+cleaning_products3,byte,m_cleaning_products3,Bleach / disinfectant
+cleaning_products4,byte,m_cleaning_products4,Cloth or Towel
+cleaning_products5,byte,m_cleaning_products5,Other chemical products
+cleaning_products6,byte,m_cleaning_products6,I  don’t clean surfaces
+cleaning_products88,byte,m_cleaning_products88,Don't know
+cleaning_frequency,byte,clean_freq,How often do you clean your cooking area?
+bushmeat_handling1,byte,m_bushmeat_handling1,I wash hands carefully
+bushmeat_handling2,byte,m_bushmeat_handling2,I use separate tools or chopping boards
+bushmeat_handling3,byte,m_bushmeat_handling3,I wear gloves or other protection
+bushmeat_handling4,byte,m_bushmeat_handling4,I cook bushmeat longer or at higher temperatures
+bushmeat_handling5,byte,m_bushmeat_handling5,I do not take any precautions
+bushmeat_handling6,byte,m_bushmeat_handling6,I do not handle bushmeat personally
+bushmeat_handling66,byte,m_bushmeat_handling66,Other precautions (please specify): __________
+bushmeat_handling88,byte,m_bushmeat_handling88,Don't know
+overall_satisfaction,byte,,"Overall, how do you feel about having participated in our study?"
+intervention_audit1,byte,m_intervention_audit1,Poster prominently displayed
+intervention_audit2,byte,m_intervention_audit2,Poster visible but hidden/damaged
+intervention_audit3,byte,m_intervention_audit3,No poster visible
+intervention_audit4,byte,m_intervention_audit4,Bushmeat on written menu/board
+intervention_audit5,byte,m_intervention_audit5,Bushmeat in prep area/kitchen
+intervention_audit6,byte,m_intervention_audit6,Bushmeat in storage/freezer
+intervention_audit7,byte,m_intervention_audit7,Customers ordering bushmeat
+intervention_audit8,byte,m_intervention_audit8,No bushmeat evidence observed
+intervention_audit9,byte,m_intervention_audit9,Clean food prep area
+intervention_audit10,byte,m_intervention_audit10,Poor cleanliness observed
+intervention_audit11,byte,m_intervention_audit11,Respondent seemed evasive
+intervention_audit12,byte,m_intervention_audit12,Limited visibility of kitchen/storage
+intervention_audit13,byte,m_intervention_audit13,Nothing.
+reason_no_consent5,byte,m_reason_no_consent5,Not relevant to me
+interview_order,byte,,
+n_interviews,byte,,
+wave2,byte,wave2,
+participate_ft,byte,,participate_ft
+FT_id,byte,,FT_id
+contract_offered,byte,,contract_offered
+contract_type,byte,,contract_type
+contract_accepted,byte,,contract_accepted
+started_project,byte,,started_project
+finished_project,byte,,finished_project
+bio_risk_bushmeat,float,,Bushmeat threatens wildlife (0 to 10)
+zoonosis_risk,float,,Bushmeat creates zoonotic risk (0 to 10)
+maquis_age1,byte,,<1
+maquis_age2,byte,,1 - 3
+maquis_age3,byte,,3 - 10
+maquis_age4,byte,,> 10
+daily_profit1,byte,,"< 10,000"
+daily_profit2,byte,,"10,000 - 20,000"
+daily_profit3,byte,,"20,001 - 35,000"
+daily_profit4,byte,,"35,001 - 50,000"
+daily_profit5,byte,,"> 50,000"
+workers,byte,,Number of workers

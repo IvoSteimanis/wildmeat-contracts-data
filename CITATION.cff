@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite this dataset (Zenodo concept DOI) and the paper."
+title: "Data: Temporary voluntary compensation contracts reduce wild meat sales in a zoonotic disease hotspot"
+type: dataset
+license: CC-BY-4.0
+version: "1.0"
+date-released: "2026-10-28"
+authors:
+  - family-names: Steimanis
+    given-names: Ivo
+    affiliation: Philipps University Marburg
+  - family-names: Struwe
+    given-names: Natalie
+    affiliation: University of Innsbruck
+  - family-names: Benda
+    given-names: Julian
+    affiliation: University of Innsbruck
+  - family-names: Doho
+    given-names: Cyrille
+    affiliation: Centre Suisse de Recherches Scientifiques en Côte d'Ivoire
+  - family-names: Blanco
+    given-names: Esther
+    affiliation: University of Innsbruck
+  - family-names: Vollan
+    given-names: Björn
+    affiliation: Philipps University Marburg
+# doi: add the Zenodo CONCEPT DOI after the first release

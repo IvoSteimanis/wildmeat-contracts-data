@@ -1,0 +1,54 @@
+name,type,vallab,varlab
+participant,int,,Participant (sequential release id)
+visited,byte,,participant.visited
+donation,float,,participant.donation
+keep,float,,participant.keep
+quiz_bonus,float,,participant.quiz_bonus
+total_earnings,float,,participant.total_earnings
+correct_total,byte,,participant.correct_total
+wrong_total,byte,,participant.wrong_total
+skipped_total,byte,,participant.skipped_total
+donation_expectat,float,,Donation.1.player.donation_expectation
+quiz1,byte,,Donation.1.player.quiz1
+quiz2,byte,,Donation.1.player.quiz2
+quiz3,byte,,Donation.1.player.quiz3
+quiz4,byte,,Donation.1.player.quiz4
+quiz5,byte,,Donation.1.player.quiz5
+quiz6,byte,,Donation.1.player.quiz6
+quiz7,byte,,Donation.1.player.quiz7
+quiz8,byte,,Donation.1.player.quiz8
+quiz9,byte,,Donation.1.player.quiz9
+quiz10,byte,,Donation.1.player.quiz10
+quiz11,byte,,Donation.1.player.quiz11
+quiz12,byte,,Donation.1.player.quiz12
+quiz13,byte,,Donation.1.player.quiz13
+age,byte,,Age (in years)
+sex,byte,la_gender,Gender
+employment,byte,,survey.1.player.employment
+income,byte,,survey.1.player.income
+education,byte,,survey.1.player.education
+intervention_belief,byte,,survey.1.player.intervention_belief1
+intervention_belief2,byte,,survey.1.player.intervention_belief2
+intervention_belief3,byte,,survey.1.player.intervention_belief3
+intervention_belief4,byte,,survey.1.player.intervention_belief4
+intervention_belief5,byte,,survey.1.player.intervention_belief5
+intervention_trust,byte,,survey.1.player.intervention_trust
+meat_consumption,byte,,survey.1.player.meat_consumption
+belief_meat_cc,byte,,survey.1.player.belief_meat_cc
+belief_undercooked,byte,,survey.1.player.belief_undercooked
+belief_handling,byte,,survey.1.player.belief_handling
+belief_sick,byte,,survey.1.player.belief_sick
+belief_bio1,byte,,survey.1.player.belief_bio1
+belief_bio2,byte,,survey.1.player.belief_bio2
+belief_bio3,byte,,survey.1.player.belief_bio3
+belief_onehealth,byte,,survey.1.player.belief_onehealth
+belief_pandemics,byte,,survey.1.player.belief_pandemics
+environment,byte,la_environment,Participation Environment
+device,byte,la_device,Device
+last_page,byte,,
+time_total,float,,
+treatment,byte,la_treat,Treatment
+total_bonus,float,,
+sum_bonus,float,,
+donation_gap,float,,Donation-Expectation Gap
+female,byte,,Gender: female
