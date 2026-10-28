@@ -31,6 +31,9 @@ codebook in `codebooks/` (variable name, type, variable label, value label name)
 Monetary values in the accounting files are in CFA francs (1 EUR = 655.957 CFA). In the string variable
 `treatment`, "Affiche" is the poster arm and "Pas de viande de brousse" the poster + compensation arm.
 
+Not included: the 2024 consumer survey behind the Supplementary Information section on wild meat consumption in
+Yopougon. It will be released with the companion paper on wild meat consumption.
+
 ## Linking files
 
 `release_id` identifies a restaurant consistently across the four field files (`field_survey_2025`,
@@ -54,7 +57,8 @@ Data released under CC BY 4.0 (see `LICENSE`). Please cite this record using its
 
 ## Funding
 
-[FWF project number and other funders]
+We are thankful for financial support by the Volkswagen Foundation (Ref. 9C 446) and the Austrian Science Fund (FWF,
+Grant DOI 10.55776/F63).
 
 ## Contact
 
