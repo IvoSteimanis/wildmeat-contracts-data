@@ -1,5 +1,7 @@
 # Data: Temporary voluntary compensation contracts reduce wild meat sales in a zoonotic disease hotspot
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23734932.svg)](https://doi.org/10.5281/zenodo.23734932)
+
 De-identified data for the working paper by Ivo Steimanis, Natalie Struwe, Julian Benda, Cyrille Doho,
 Esther Blanco and Björn Vollan. This first version contains the cleaned datasets used in the paper. The full
 replication package (code to reproduce every table and figure) will be added to this record once the paper
