@@ -13,5 +13,8 @@
     {"name": "Vollan, Björn", "affiliation": "Philipps University Marburg"}
   ],
   "notes": "Funding: Volkswagen Foundation (Ref. 9C 446) and the Austrian Science Fund (FWF, Grant DOI 10.55776/F63).",
+  "related_identifiers": [
+    {"identifier": "https://osf.io/yzqng", "relation": "isDocumentedBy", "resource_type": "publication-preprint", "scheme": "url"}
+  ],
   "keywords": ["wild meat", "bushmeat", "field experiment", "compensation contracts", "Côte d'Ivoire", "zoonoses"]
 }
