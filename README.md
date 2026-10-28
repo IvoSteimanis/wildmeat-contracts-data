@@ -13,9 +13,9 @@ A field experiment with owners of informal restaurants (*maquis*) in Yopougon, A
 (2025), with a twelve-month follow-up survey (2026), and a companion online donation experiment with
 European participants recruited through Prolific (2025). Owners who attended an accounting workshop were
 randomly offered either a poster contract (*poster*) or a poster contract with weekly compensation for not
-selling wild meat (*poster + compensation*). The study was pre-registered on the Open Science Framework
-(pre-analysis plans deposited on 25 April 2025, before data collection for the field experiment and the donation
-experiment: https://osf.io/yzqng) and approved by the ethics committees of the University of Innsbruck (Certificate 125/2024), the School of
+selling wild meat (*poster + compensation*). The pre-analysis plans were deposited on the Open
+Science Framework on 25 April 2025, before data collection for the field experiment and the donation experiment
+(https://osf.io/yzqng). The study was approved by the ethics committees of the University of Innsbruck (Certificate 125/2024), the School of
 Business and Economics of Marburg University, and CSRS (Abidjan).
 
 ## Files
